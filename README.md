@@ -5,11 +5,28 @@
 
 int SnakeWaterGun(char you,char comp)
 {
+//returns 1 if you win,-1 if you lose and 0 if draw
+//condition draw
+//cases covered
+//ss
+//gg
+//ww
+
     if(you==comp)
     {
         return 0;
     }
     
+    
+  //non-draw condition
+  //condition covered
+  //sg
+  //gs
+  //sw
+  //ws
+  //gw
+  //wg
+  
     if(you=='s' && comp=='g')
     {
         return -1;
@@ -73,3 +90,8 @@ int main() {
    }
     return 0;
 }
+/*OUTPUT:
+s
+you chose s and computer chose w
+you win!
+*/
